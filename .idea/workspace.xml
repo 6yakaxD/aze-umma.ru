@@ -41,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rmtj7/Desktop/aze-umma/src/components/mainNewsPost/leftMainContent",
+    "last_opened_file_path": "C:/Users/rmtj7/Desktop/aze-umma/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,9 +56,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rmtj7\Desktop\aze-umma\public" />
       <recent name="C:\Users\rmtj7\Desktop\aze-umma\src\components\mainNewsPost\leftMainContent" />
       <recent name="C:\Users\rmtj7\Desktop\aze-umma\src\app\about" />
-      <recent name="C:\Users\rmtj7\Desktop\aze-umma\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -115,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735555929474</updated>
-      <workItem from="1735555931506" duration="14485000" />
+      <workItem from="1735555931506" duration="14783000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735570269065</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1735570583057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735570583057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
