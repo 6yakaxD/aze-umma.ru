@@ -1,4 +1,4 @@
-export default function RightMainContent() {
+export default function RightMainPageContent() {
     return (
         <>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'end' }}>

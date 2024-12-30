@@ -1,6 +1,6 @@
-import styles from './leftMainContent.module.scss';
+import styles from './leftMainPageContent.module.scss';
 
-export default function LeftMainContent() {
+export default function LeftMainPageContent() {
     return (
         <>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'end' }}>

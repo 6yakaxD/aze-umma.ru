@@ -4,7 +4,7 @@ import Navbar from "@/components/header/navBar";
 import Footer from "@/components/footer/footer";
 import {useState} from "react";
 import style from './page.module.scss'
-import MainContent from "@/components/mainContent/mainContentWrapper/mainContent";
+import MainContent from "@/components/mainContentWrapper/mainContent";
 
 export default function Structure() {
 
