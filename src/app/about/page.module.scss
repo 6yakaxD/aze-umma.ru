@@ -40,11 +40,6 @@
 
 /* 1 BLOCK */
 .mainBlock1 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-inline: 220px;
-    padding-block: 50px;
     background-color: $dark-blue;
 
     img {
@@ -55,7 +50,6 @@
         color: #ffffff;
         font-size: 22px;
         font-weight: 500;
-        font-family: 'Neris-Light';
     }
 }
 
@@ -67,31 +61,25 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-inline: 220px;
-    padding-block: 50px;
+
 
     h1 {
         font-size: 52px;
-        font-family: 'FiraSans-Ultra';
     }
 
     h3 {
         padding-inline: 40px;
         font-size: 28px;
-        font-family: 'Futura';
     }
 
     h4 {
         font-size: 26px;
-        font-family: 'Futura';
         color: #000000b5;
     }
 }
 
 /* 3 BLOCK */
 .mainBlock3 {
-    margin-top: 20px;
-    margin-bottom: 50px;
 
     h1 {
         display: flex;
@@ -99,7 +87,6 @@
         align-items: center;
         margin-bottom: 20px;
         font-size: 42px;
-        font-family: 'FiraSans-Ultra';
     }
 
     .title {
@@ -166,13 +153,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-inline: 220px;
-    padding-block: 50px;
     text-align: center;
 
     h1 {
         font-size: 42px;
-        font-family: 'FiraSans-Ultra';
     }
 
     a {

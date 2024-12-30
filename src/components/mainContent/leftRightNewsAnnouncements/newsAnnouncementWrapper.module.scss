@@ -1,0 +1,33 @@
+@import '../../../styles/vars';
+
+.centerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.contentLeft {
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    border: rgba(0, 0, 0, 0.11) 0.2px solid;
+    padding: 15px;
+
+    position: sticky;
+    max-height: fit-content;
+    top: 0;
+}
+
+
+.contentRight {
+    width: 32%;
+    background-color: rgb(255, 255, 255);
+    border: rgba(0, 0, 0, 0.11) 0.2px solid;
+
+    padding: 15px;
+
+    position: sticky;
+    max-height: fit-content;
+    top: 0;
+}

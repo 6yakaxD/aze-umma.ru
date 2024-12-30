@@ -2,9 +2,9 @@
 import {useEffect} from 'react';
 import '@splidejs/splide/dist/css/splide.min.css';
 import Splide from '@splidejs/splide';
-import styles from './mainNewsPost.module.scss';
+import styles from './mainNewsPostSlider.module.scss';
 
-export default function MainNewsPost() {
+export default function MainNewsPostSlider() {
 
     useEffect(() => {
         const splide = new Splide('.splide', {

@@ -4,7 +4,7 @@ export default function LeftMainContent() {
     return (
         <>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'end' }}>
-                <h2 style={{ fontFamily: 'Neris-Light', fontSize: '20px' }}>НОВОСТИ</h2>
+                <h2 style={{ fontFamily: 'Neris-Light', fontSize: '20px' }}>Новости</h2>
                 <a href="/news">
                     <p className={styles.showMoreNewsBtn}>show more</p>
                 </a>
