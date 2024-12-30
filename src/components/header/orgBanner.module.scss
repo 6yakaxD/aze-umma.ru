@@ -1,0 +1,25 @@
+@import '../../styles/_vars.scss';
+
+.org-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-block: 10px;
+
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+.org-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 10px;
+}
+
+.org-name h1 {
+  color: $dark-blue;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
