@@ -1,5 +1,8 @@
-@import '../styles/_vars.scss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@import '../styles/_vars.scss';
 
 *, *::before, *::after {
     margin: 0;

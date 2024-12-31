@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './mainContent.module.scss';
+import style from './allContent.module.scss';
 
-export default function MainContent({ children }) {
+export default function AllContent({ children }) {
     return (
         <div className={style.mainContentDiv}>
             {children}

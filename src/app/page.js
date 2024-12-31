@@ -4,7 +4,7 @@ import Footer from "@/components/footer/footer";
 import MainNewsPostSlider from "@/components/mainNewsPostSlider/mainNewsPostSlider";
 import RightMainPageContent from "@/components/leftRightNewsAnnouncementsWrapper/mainPage/rightMainPageContent/rightMainPageContent";
 import LeftMainPageContent from "@/components/leftRightNewsAnnouncementsWrapper/mainPage/leftMainPageContent/leftMainPageContent";
-import MainContent from "@/components/mainContentWrapper/mainContent";
+import AllContent from "@/components/allContentWrapper/allContent";
 import NewsAnnouncementWrapper from "@/components/leftRightNewsAnnouncementsWrapper/newsAnnouncementWrapper";
 
 export default function Home() {
@@ -13,14 +13,16 @@ export default function Home() {
             <OrgBanner/>
             <Navbar/>
 
-            <MainContent>
+            <AllContent>
                 <MainNewsPostSlider/>
 
-                <NewsAnnouncementWrapper
-                    LeftContent={<LeftMainPageContent/>}
-                    RightContent={<RightMainPageContent/>}
-                />
-            </MainContent>
+                <div style={{marginTop: "25px"}}>
+                    <NewsAnnouncementWrapper
+                        LeftContent={<LeftMainPageContent/>}
+                        RightContent={<RightMainPageContent/>}
+                    />
+                </div>
+            </AllContent>
 
             <Footer/>
         </>

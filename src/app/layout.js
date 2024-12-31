@@ -1,4 +1,5 @@
 import "./globals.scss";
+import Providers from "@/app/providers";
 
 export const metadata = {
     title: "Create Next App",
@@ -7,18 +8,22 @@ export const metadata = {
 
 export default function RootLayout({children}) {
     return (
-        <html lang="ru">
-        <head>
-            <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-            />
-            <link rel="icon" type="image/x-icon" href="/logo_umma.png" />
-            <title>Умма</title>
-        </head>
-        <body>
-        {children}
-        </body>
-        </html>
+        <>
+            <html lang="ru">
+            <head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+                />
+                <link rel="icon" type="image/x-icon" href="/logo_umma.png"/>
+                <title>Умма</title>
+            </head>
+            <body>
+            <Providers>
+                {children}
+            </Providers>
+            </body>
+            </html>
+        </>
     );
 }

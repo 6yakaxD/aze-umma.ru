@@ -1,29 +1,2 @@
 @import '../../../../styles/vars';
 
-.content-right {
-    width: 32%;
-    background-color: rgb(255, 255, 255);
-    border: rgba(0, 0, 0, 0.11) 0.2px solid;
-
-    padding: 15px;
-
-    position: sticky;
-    max-height: fit-content;
-    top: 0;
-}
-
-
-.announce-titles h2 {
-    font-weight: 800;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.announce-titles h2:hover {
-    color: $orange-secondary-hover;
-}

@@ -4,7 +4,7 @@ import Navbar from "@/components/header/navBar";
 import Footer from "@/components/footer/footer";
 import {useState} from "react";
 import style from './page.module.scss'
-import MainContent from "@/components/mainContentWrapper/mainContent";
+import AllContent from "@/components/allContentWrapper/allContent";
 
 export default function Structure() {
 
@@ -19,7 +19,7 @@ export default function Structure() {
             <OrgBanner/>
             <Navbar/>
 
-            <MainContent>
+            <AllContent>
                 <div>
                     <h1 style={{
                         display: 'flex',
@@ -84,7 +84,7 @@ export default function Structure() {
                         </div>
                     </div>
                 </div>
-            </MainContent>
+            </AllContent>
 
             <Footer/>
         </>

@@ -3,7 +3,7 @@ import Navbar from "@/components/header/navBar";
 import Footer from "@/components/footer/footer";
 
 import style from './page.module.scss';
-import MainContent from "@/components/mainContentWrapper/mainContent";
+import AllContent from "@/components/allContentWrapper/allContent";
 
 
 export default function Contacts() {
@@ -12,7 +12,7 @@ export default function Contacts() {
             <OrgBanner/>
             <Navbar/>
 
-            <MainContent>
+            <AllContent>
                 <div>
                     <div className={style.contantData}>
                         <h1 style={{fontFamily: 'FiraSans-Ultra', fontSize: '30px'}}>Контактные данные</h1>
@@ -94,7 +94,7 @@ export default function Contacts() {
                         </div>
                     </div>
                 </div>
-            </MainContent>
+            </AllContent>
 
             <Footer/>
         </>

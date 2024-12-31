@@ -1,0 +1,25 @@
+@import '../../../styles/vars';
+
+.announceTitles h2 {
+    font-weight: 800;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.announceTitles h2:hover {
+    color: $orange-secondary-hover;
+}
+
+.hoverZoomImage {
+    filter: brightness(0.85);
+    transition: filter 0.6s ease;
+}
+
+.hoverZoomImage:hover {
+    filter: brightness(1);
+}

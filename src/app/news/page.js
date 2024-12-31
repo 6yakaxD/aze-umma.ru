@@ -1,13 +1,12 @@
 import OrgBanner from "@/components/header/orgBanner";
 import Navbar from "@/components/header/navBar";
 import Footer from "@/components/footer/footer";
-import MainContent from "@/components/mainContentWrapper/mainContent";
-import LeftMainPageContent
-    from "@/components/leftRightNewsAnnouncementsWrapper/mainPage/leftMainPageContent/leftMainPageContent";
+import AllContent from "@/components/allContentWrapper/allContent";
 import RightMainPageContent
     from "@/components/leftRightNewsAnnouncementsWrapper/mainPage/rightMainPageContent/rightMainPageContent";
 import NewsAnnouncementWrapper from "@/components/leftRightNewsAnnouncementsWrapper/newsAnnouncementWrapper";
-
+import LeftNewsPageContent
+    from "@/components/leftRightNewsAnnouncementsWrapper/newsPage/leftNewsPageContent/leftMainPageContent";
 
 export default function News() {
     return (
@@ -15,16 +14,17 @@ export default function News() {
             <OrgBanner/>
             <Navbar/>
 
-            <MainContent>
+            <AllContent>
                 {/* TODO: change LeftMainPageContent && RightMainPageContent -> to left|rightNewsPageContent */}
                 {/* TODO: вынести item новости и item объявления в отдельный компонент и переиспользовать его во всех компонентах внутри leftRightNewsAnnouncementWrapper */}
                 <NewsAnnouncementWrapper
-                    LeftContent={<LeftMainPageContent/>}
+                    LeftContent={<LeftNewsPageContent/>}
                     RightContent={<RightMainPageContent/>}
                 />
-            </MainContent>
+            </AllContent>
 
             <Footer/>
+
         </>
     );
 }

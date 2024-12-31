@@ -3,7 +3,7 @@ import Navbar from "@/components/header/navBar";
 import Footer from "@/components/footer/footer";
 
 import style from './page.module.scss';
-import MainContent from "@/components/mainContentWrapper/mainContent";
+import AllContent from "@/components/allContentWrapper/allContent";
 
 
 export default function About() {
@@ -26,7 +26,7 @@ export default function About() {
 
 
                     <div className={style.mainBlock1}>
-                        <MainContent>
+                        <AllContent>
                             <div style={{
                                 display: 'flex',
                                 flexDirection: 'row',
@@ -53,11 +53,11 @@ export default function About() {
                                     </p>
                                 </div>
                             </div>
-                        </MainContent>
+                        </AllContent>
 
                     </div>
 
-                    <MainContent>
+                    <AllContent>
                         <div className={style.mainBlock2}>
                             <h1>Работаем с 2023 года</h1>
                             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis pariatur earum
@@ -71,9 +71,9 @@ export default function About() {
                                 </a>
                             </h4>
                         </div>
-                    </MainContent>
+                    </AllContent>
 
-                    <MainContent>
+                    <AllContent>
                         <div className={style.mainBlock3}>
                             <h1>Наши Цели</h1>
                             <div className={style.accordions}>
@@ -124,22 +124,22 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </MainContent>
+                    </AllContent>
 
                     <div className={style.mainBlock4}>
-                        <MainContent>
+                        <AllContent>
                             <h1>МЫ ПОМОГАЕМ...</h1>
-                        </MainContent>
+                        </AllContent>
                     </div>
 
 
-                    <MainContent>
+                    <AllContent>
 
                         <div className={style.mainBlock5}>
                             <h1>О ВСЕЙ НАШЕЙ ДЕЯТЕЛЬНОСТИ<br/>ВЫ МОЖЕТЕ ОЗНАКОМИТЬСЯ</h1>
                             <a href="#">ЗДЕСЬ</a>
                         </div>
-                    </MainContent>
+                    </AllContent>
                 </div>
             </div>
 
