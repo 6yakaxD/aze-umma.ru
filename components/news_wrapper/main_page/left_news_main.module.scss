@@ -1,0 +1,19 @@
+@import '../../../styles/vars';
+
+
+.showMoreNewsBtn {
+    &:hover {
+        color: $orange-secondary-hover;
+    }
+}
+
+.allNewsBtn {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: $orange-secondary;
+
+    &:hover {
+        background-color: $orange-secondary-hover;
+    }
+}

@@ -1,0 +1,10 @@
+@import "../styles/vars";
+
+
+
+body {
+    background-color: $background;
+    background-image: url('/body-top-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
