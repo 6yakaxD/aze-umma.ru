@@ -15,9 +15,7 @@ export default function Navbar(): React.ReactElement {
                         <i className="fa fa-caret-down"></i>
                     </a>
                     <div className={styles.dropdownContent}>
-                        <a href="/structure">Отдел образования</a>
-                        <a href="/structure">Отдел Старейшин</a>
-                        <a href="/structure">Отдел Спорта и туризма</a>
+                        <a href="/structure">Председатель</a>
                         <a href="/structure">Отдел образования</a>
                         <a href="/structure">Отдел Старейшин</a>
                         <a href="/structure">Отдел Спорта и туризма</a>

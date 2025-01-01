@@ -10,7 +10,7 @@ export default function AboutPage() {
 
             <div>
                 <div className={style.videoBackground}>
-                    <video autoPlay muted loop playsInline controls>
+                    <video autoPlay muted loop playsInline >
                         <source src="/aze_video.mp4" type="video/mp4"/>
                     </video>
                     <div className={style.textOverlay}>

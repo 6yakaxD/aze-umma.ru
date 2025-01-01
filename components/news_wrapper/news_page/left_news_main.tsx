@@ -25,7 +25,14 @@ export default function LeftNewsPageContent() {
 
             <div style={{border: 'rgba(0, 0, 0, 0.075) 0.1px solid', marginBlock: '15px'}}></div>
 
-            <Pagination initialPage={1} total={10}/>
+            <div className="flex items-center justify-center">
+                <Pagination
+                    color="primary"
+                    initialPage={1}
+                    total={100}
+                    showControls
+                />
+            </div>
 
         </>
     );

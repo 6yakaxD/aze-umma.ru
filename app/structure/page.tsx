@@ -32,6 +32,8 @@ export default function Structure() {
                         <img src="/чужая_структура.png" height={600} width={800} alt="Структура"/>
                     </div>
 
+                    {/* TODO: попытаться сделать схему диаспоры интерактивной в виде анимированного адаптивного svg  */}
+                    {/* TODO: заменить на Accordion из nextui */}
                     <div className={style.mainContentDiv}>
                         <div className={style.contentLeft}>
                             <div className={style.tab}>

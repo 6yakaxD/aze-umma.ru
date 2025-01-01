@@ -9,9 +9,9 @@ const config = {
     ],
     theme: {
         extend: {
-          colors: {
-            'dark-blue': '#1E293B',
-          },
+            colors: {
+                'dark-blue': '#1E293B',
+            },
         },
     },
     darkMode: 'class',
