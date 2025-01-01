@@ -13,7 +13,6 @@ export default function RightMainPageContent(): React.ReactElement {
             <AnnouncementElement></AnnouncementElement>
             <AnnouncementElement></AnnouncementElement>
             <AnnouncementElement></AnnouncementElement>
-            <AnnouncementElement></AnnouncementElement>
         </>
     );
 }
