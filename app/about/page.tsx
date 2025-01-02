@@ -10,7 +10,7 @@ export default function AboutPage() {
 
             <div>
                 <div className={style.videoBackground}>
-                    <video autoPlay muted loop playsInline >
+                    <video autoPlay muted loop playsInline>
                         <source src="/aze_video.mp4" type="video/mp4"/>
                     </video>
                     <div className={style.textOverlay}>
@@ -60,6 +60,7 @@ export default function AboutPage() {
                                 facere rerum. Assumenda eum earum magnam animi officiis</h3>
                             <h4 style={{textDecoration: 'underline'}}>
                                 <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
+                                    {/* TODO: modal window on click from nextui components */}
                                     И действуем на основании<br/>228 статьи ФЗ РФ
                                 </a>
                             </h4>

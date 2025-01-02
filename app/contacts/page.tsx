@@ -2,6 +2,7 @@ import Header from "@/components/base/header";
 import AllContentWrapper from "@/components/base/all_content_wrapper";
 import Footer from "@/components/base/footer";
 import style from './page.module.scss';
+import FormWrite from "@/components/form/write_form";
 
 
 export default function ContactsPage() {
@@ -69,29 +70,8 @@ export default function ContactsPage() {
                         </div>
                     </div>
 
-                    <div className={style.questionFormWrapper}>
-                        <div className={style.questionForm}>
-                            <header>Написать председателю</header>
-                            <form action="#">
-                                <div className={style.dblField}>
-                                    <div className={style.field}>
-                                        <input type="text" name="name" placeholder="Ваше имя"/>
-                                        <i className='fa fa-user'></i>
-                                    </div>
-                                    <div className={style.field}>
-                                        <input type="text" name="email" placeholder="Ваша почта"/>
-                                        <i className='fa fa-envelope'></i>
-                                    </div>
-                                </div>
-                                <div className={style.message}>
-                                    <textarea placeholder="Введите ваше сообщение" name="message"></textarea>
-                                </div>
-                                <div className={style.buttonArea}>
-                                    <button type="submit">Отправить</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                    <FormWrite></FormWrite>
+
                 </div>
             </AllContentWrapper>
             <Footer></Footer>
