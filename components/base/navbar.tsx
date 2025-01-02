@@ -1,8 +1,9 @@
 import React from 'react';
-
 import styles from './navbar.module.scss';
+import Link from "next/link";
 
 export default function Navbar(): React.ReactElement {
+
     return (
         <>
             <div className={styles.navbar}>
@@ -15,10 +16,18 @@ export default function Navbar(): React.ReactElement {
                         <i className="fa fa-caret-down"></i>
                     </a>
                     <div className={styles.dropdownContent}>
-                        <a href="/structure">Председатель</a>
-                        <a href="/structure">Отдел образования</a>
-                        <a href="/structure">Отдел Старейшин</a>
-                        <a href="/structure">Отдел Спорта и туризма</a>
+                        <Link href="/structure#accordions">
+                            Председатель
+                        </Link>
+                        <Link href="/structure#accordions">
+                            Отдел образования
+                        </Link>
+                        <Link href="/structure#accordions">
+                            Отдел Старейшин
+                        </Link>
+                        <Link href="/structure#accordions">
+                            Отдел Спорта и туризма
+                        </Link>
                     </div>
                 </div>
 

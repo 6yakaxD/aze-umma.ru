@@ -2,6 +2,10 @@
 import React from 'react';
 import {Button, Input, Textarea} from "@nextui-org/react";
 import style from './left_news_detail.module.scss';
+import PostGallery from "@/components/gallery";
+import Comment from "@/components/comments/comment";
+import Reply from "@/components/comments/comment-reply";
+
 
 export default function LeftNewsDetailPageContent(): React.ReactElement {
     return (
@@ -55,6 +59,8 @@ export default function LeftNewsDetailPageContent(): React.ReactElement {
                         sit amet
                     </p>
                 </div>
+
+                <PostGallery></PostGallery>
 
                 {/* TODO: Carousel of last | interesting news */}
 
@@ -130,78 +136,16 @@ export default function LeftNewsDetailPageContent(): React.ReactElement {
 
 
             {/* Comments Section */}
-            {/* TODO: выделить comment и reply в отдельный компонент */}
             {/* TODO: выделить textarea и input чтобы написать ответ на комментарий в отдельный компонент */}
-            <div className={style.commentsCommentDiv}>
-                <div className={style.commentLeft}>
-                    <div className={style.commenterLogo}>
-                        <img src="/templ_comment_ava.png" alt="Commenter Avatar" height="50px"/>
-                    </div>
-                </div>
+            {/* Comment */}
+            <Comment>
+                <Reply />
+            </Comment>
 
-                <div className={style.commentRight}>
-                    <div className={style.commentTitle}>
-                        <p>Username</p>
-                        <p>01.01.2001 at 18:55</p>
-                    </div>
-
-                    <div className={style.commentContext}>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eveniet expedita voluptas vel
-                        facilis esse autem perferendis debitis labore et, quis ipsa, itaque unde doloremque culpa
-                        pariatur impedit optio fugit?
-                    </div>
-
-                    <div className={style.commentReplyBtn}>
-                        <a href="#">Ответить</a>
-                    </div>
-
-                    <div className={style.articleSpacer}></div>
-
-                    <div className={style.replyToCommentDiv}>
-                        <div className={style.commentLeft}>
-                            <div className={style.commenterLogo}>
-                                <img src="/templ_comment_ava.png" alt="Commenter Avatar" height="50px"/>
-                            </div>
-                        </div>
-
-                        <div className={style.commentRight}>
-                            <div className={style.commentTitle}>
-                                <p>Username</p>
-                                <p>01.01.2001 at 18:55</p>
-                            </div>
-
-                            <div className={style.commentContext}>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eveniet expedita
-                                voluptas vel facilis esse autem perferendis debitis labore et, quis ipsa, itaque unde
-                                doloremque culpa pariatur impedit optio fugit?
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={style.articleSpacer}></div>
-
-                    <div className={style.replyToCommentDiv}>
-                        <div className={style.commentLeft}>
-                            <div className={style.commenterLogo}>
-                                <img src="/templ_comment_ava.png" alt="Commenter Avatar" height="50px"/>
-                            </div>
-                        </div>
-
-                        <div className={style.commentRight}>
-                            <div className={style.commentTitle}>
-                                <p>Username</p>
-                                <p>01.01.2001 at 18:55</p>
-                            </div>
-
-                            <div className={style.commentContext}>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eveniet expedita
-                                voluptas vel facilis esse autem perferendis debitis labore et, quis ipsa, itaque unde
-                                doloremque culpa pariatur impedit optio fugit?
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Comment>
+                <Reply />
+                <Reply />
+            </Comment>
 
         </>
     );

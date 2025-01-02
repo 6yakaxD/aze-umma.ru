@@ -257,29 +257,14 @@
 .commentTitle {
     display: flex;
     justify-content: start;
-    align-items: center;
-    gap: 25px;
-    font-family: "Neris-Light";
-}
-
-.commentTitle p:first-child {
-    font-size: 18px;
-}
-
-.commentTitle p:nth-child(2) {
-    font-family: "Futura";
-    font-size: 16px;
-    padding-top: 5px;
+    align-items: end;
+    gap: 15px;
 }
 
 .commentContext {
-    margin-top: 8px;
-    font-family: "Neris-Light";
 }
 
 .commentReplyBtn {
-    margin-top: 8px;
-    font-family: "Futura";
 }
 
 
@@ -289,6 +274,4 @@
     margin-top: 15px;
 }
 
-.commenterLogo img {
-    border-radius: 50%;
-}
+

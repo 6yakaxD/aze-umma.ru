@@ -1,7 +1,8 @@
 @import "../styles/vars";
 
-
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: $background;
     background-image: url('/body-top-bg.png');
