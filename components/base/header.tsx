@@ -9,7 +9,7 @@ export default function Header(): React.ReactElement {
                 <img src="/umma.png" alt="УММА" style={{height: '260px'}}/>
             </div>
             <div className={styles['org-name']}>
-                <h1>
+                <h1 className="font-roboto font-extrabold text-4xl text-center">
                     АЗЕРБАЙДЖАНСКОЕ
                     <br/> КУЛЬТУРНО-ПРОСВЕТИТЕЛЬСКОЕ
                     <br/> ОБЪЕДИНЕНИЕ УММА

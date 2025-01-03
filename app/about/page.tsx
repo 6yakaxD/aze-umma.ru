@@ -1,9 +1,24 @@
+"use client"
+
 import Header from "@/components/base/header";
 import Footer from "@/components/base/footer";
 import style from './page.module.scss';
 import AllContentWrapper from "@/components/base/all_content_wrapper";
+import {
+    Modal,
+    ModalContent,
+    ModalHeader,
+    ModalBody,
+    ModalFooter,
+    Button,
+    useDisclosure,
+} from "@nextui-org/react";
+import React from "react";
 
 export default function AboutPage() {
+
+    const {isOpen, onOpen, onOpenChange} = useDisclosure();
+
     return (
         <>
             <Header></Header>
@@ -58,12 +73,40 @@ export default function AboutPage() {
                                 dolor velit, nihil exercitationem autem cumque aut! Assumenda eum earum magnam animi
                                 officiis excepturi,
                                 facere rerum. Assumenda eum earum magnam animi officiis</h3>
-                            <h4 style={{textDecoration: 'underline'}}>
-                                <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
-                                    {/* TODO: modal window on click from nextui components */}
+                            <h4 className="underline cursor-pointer mt-[10px]">
+                                <a onClick={onOpen} >
                                     И действуем на основании<br/>228 статьи ФЗ РФ
                                 </a>
                             </h4>
+
+                            <Modal
+                                backdrop="blur"
+                                isOpen={isOpen}
+                                onOpenChange={onOpenChange}
+                            >
+                                <ModalContent>
+                                    {(onClose) => (
+                                        <>
+                                            <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
+                                            <ModalBody>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                                    pulvinar risus non
+                                                    risus hendrerit venenatis. Pellentesque sit amet hendrerit risus,
+                                                    sed porttitor
+                                                    quam.
+                                                </p>
+                                            </ModalBody>
+                                            <ModalFooter>
+                                                <Button color="danger" variant="light" onPress={onClose}>
+                                                    Close
+                                                </Button>
+                                            </ModalFooter>
+                                        </>
+                                    )}
+                                </ModalContent>
+                            </Modal>
+
                         </div>
                     </AllContentWrapper>
 

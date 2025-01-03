@@ -11,7 +11,6 @@ export default function LeftNewsDetailPageContent(): React.ReactElement {
     return (
         <>
             <div>
-                {/* TODO: подумать может добавить как-то хлебные-крошки */}
 
                 {/* Article Title */}
                 <div className={style.articleTitle}>
@@ -63,8 +62,6 @@ export default function LeftNewsDetailPageContent(): React.ReactElement {
                 <PostGallery></PostGallery>
 
                 {/* TODO: Carousel of last | interesting news */}
-
-                {/* TODO: Tags */}
 
                 {/* Spacer */}
                 <div className={style.articleSpacer}></div>
@@ -136,15 +133,13 @@ export default function LeftNewsDetailPageContent(): React.ReactElement {
 
 
             {/* Comments Section */}
-            {/* TODO: выделить textarea и input чтобы написать ответ на комментарий в отдельный компонент */}
-            {/* Comment */}
             <Comment>
-                <Reply />
+                <Reply/>
             </Comment>
 
             <Comment>
-                <Reply />
-                <Reply />
+                <Reply/>
+                <Reply/>
             </Comment>
 
         </>

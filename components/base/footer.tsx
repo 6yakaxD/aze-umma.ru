@@ -35,11 +35,10 @@ export default function Footer(): React.ReactElement {
                                 <h4>СТРУКТУРА</h4>
                             </a>
                             <ul className={styles.links}>
+                                <li><a href="/structure">Председатель</a></li>
                                 <li><a href="/structure">Отдел Образования</a></li>
-                                <li><a href="/structure">Отдел Образования</a></li>
-                                <li><a href="/structure">Отдел Образования</a></li>
-                                <li><a href="/structure">Отдел Образования</a></li>
-                                <li><a href="/structure">Отдел Образования</a></li>
+                                <li><a href="/structure">Отдел Старейшин</a></li>
+                                <li><a href="/structure">Отдел Спорта и туризма</a></li>
                             </ul>
                         </div>
 
