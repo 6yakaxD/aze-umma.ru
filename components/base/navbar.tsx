@@ -6,8 +6,8 @@ export default function Navbar(): React.ReactElement {
 
     return (
         <>
-            <div className={styles.navbar}>
-                <a href="/">ГЛАВНАЯ</a>
+            <div className={styles.navbar} >
+                <a href="/" >ГЛАВНАЯ</a>
                 <a href="/about">ОБ ОРГАНИЗАЦИИ</a>
 
                 <div className={styles.dropdown}>

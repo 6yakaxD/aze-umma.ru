@@ -21,7 +21,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="mt-[25px]">
-                    <h3>Мы сотрудничаем с:</h3>
+                    <h3 className="font-roboto text-3xl font-bold">Мы сотрудничаем с</h3>
                     <CoopSlider></CoopSlider>
                 </div>
 

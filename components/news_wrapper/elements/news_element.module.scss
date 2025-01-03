@@ -16,13 +16,8 @@
     width: 100%;
 
     h2 {
-        font-weight: 800;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-decoration: none;
+        @include title-news;
+
         transition: color 0.2s;
 
         &:hover {
@@ -31,9 +26,8 @@
     }
 
     p {
+        @include title-mini;
         color: rgb(0, 0, 0);
-        font-size: 16px;
-        margin-top: 5px;
     }
 
     h4 {

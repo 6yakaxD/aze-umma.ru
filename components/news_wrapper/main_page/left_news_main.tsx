@@ -5,8 +5,8 @@ import NewsElement from "@/components/news_wrapper/elements/news_element";
 export default function LeftMainPageContent(): React.ReactElement {
     return (
         <>
-            <div className="flex justify-between items-end">
-                <h2 className="font-neris-light text-lg">Новости</h2>
+            <div className="flex justify-between items-end ">
+                <h2 className={styles.titleBlock}>Новости</h2>
                 <a href="/news">
                     <p className={styles.showMoreNewsBtn}>show more</p>
                 </a>

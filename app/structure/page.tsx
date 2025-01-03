@@ -12,12 +12,7 @@ export default function Structure() {
             <Header/>
             <AllContentWrapper>
                 <div>
-                    <h1 style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        textAlign: 'center',
-                    }}>
+                    <h1 className="font-roboto font-bold text-3xl flex justify-center">
                         Структура Диаспоры
                     </h1>
 

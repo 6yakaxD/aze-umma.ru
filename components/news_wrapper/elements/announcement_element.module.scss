@@ -2,18 +2,16 @@
 
 
 .announceTitles h2 {
-    font-weight: 800;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-decoration: none;
+    @include title-news;
     transition: color 0.2s;
 }
 
 .announceTitles h2:hover {
     color: $orange-secondary-hover;
+}
+
+.announceTitles p {
+    @include title-mini;
 }
 
 .hoverZoomImage {

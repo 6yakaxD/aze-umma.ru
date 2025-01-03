@@ -6,7 +6,7 @@ export default function RightMainPageContent(): React.ReactElement {
     return (
         <>
             <div className="flex justify-between items-end">
-                <h2 className="font-neris-light text-lg">Объявления</h2>
+                <h2 className={style.titleBlock}>Объявления</h2>
             </div>
 
             {/* AnnouncementElement */}

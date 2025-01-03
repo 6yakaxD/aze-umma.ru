@@ -15,7 +15,7 @@ export default function Reply() {
             <div className={style.commentRight}>
                 <div className={style.commentTitle}>
                     <p>Username</p>
-                    <p>01.01.2001 at 18:55</p>
+                    <p className="italic font-thin text-sm">01.01.2001 at 18:55</p>
                 </div>
 
                 <div className={style.commentContext}>

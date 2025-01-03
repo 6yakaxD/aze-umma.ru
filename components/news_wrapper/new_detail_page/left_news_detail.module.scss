@@ -36,9 +36,8 @@
 /* Article Date and Time */
 .articleDateTime {
     display: flex;
-    font-family: "Futura";
     gap: 5px;
-    font-size: 18px;
+    @include title-mini;
     align-self: center;
 }
 
@@ -124,13 +123,14 @@
     flex-direction: row;
     gap: 5px;
     color: #676767;
-    font-size: 18px;
-    font-family: "Futura";
+    font-size: 16px;
 }
 
 .botnavPrevPost i {
-    font-size: 14px;
+    font-size: 13px;
     align-self: center;
+    margin-top: 2px;
+
 }
 
 .botnavPrevPost:hover {
@@ -145,13 +145,13 @@
     flex-direction: row;
     gap: 5px;
     color: #676767;
-    font-size: 18px;
-    font-family: "Futura";
+    font-size: 16px;
 }
 
 .botnavNextPost i {
-    font-size: 14px;
+    font-size: 13px;
     align-self: center;
+    margin-top: 2px;
 }
 
 .botnavNextPost:hover {
@@ -178,7 +178,6 @@
 }
 
 .commentsCount p {
-    font-family: "Neris-Light";
     font-size: 18px;
 }
 
@@ -247,7 +246,8 @@
     margin-top: 25px;
 }
 
-.commentLeft {}
+.commentLeft {
+}
 
 .commentRight {
     display: flex;
@@ -259,12 +259,15 @@
     justify-content: start;
     align-items: end;
     gap: 15px;
+
+
 }
 
 .commentContext {
 }
 
 .commentReplyBtn {
+    font-style: italic;
 }
 
 

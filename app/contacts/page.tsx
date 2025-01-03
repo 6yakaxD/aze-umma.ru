@@ -12,7 +12,7 @@ export default function ContactsPage() {
             <AllContentWrapper>
                 <div>
                     <div className={style.contantData}>
-                        <h1 style={{fontFamily: 'FiraSans-Ultra', fontSize: '30px'}}>Контактные данные</h1>
+                        <h1 className="font-roboto text-3xl font-bold">Контактные данные</h1>
                         <div className={style.contact3Options}>
                             <div className={style.contactOption}>
                                 <img src="/support.png" height="80px" alt="Support"/>

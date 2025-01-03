@@ -1,5 +1,6 @@
 import {nextui} from '@nextui-org/theme';
 
+/** @type {import('tailwindcss').Config} */
 /** @type {{plugins: ReturnType<Plugin>[], theme: {extend: {}}, darkMode: string, content: string[]}} */
 const config = {
     content: [
@@ -9,8 +10,8 @@ const config = {
     ],
     theme: {
         extend: {
-            colors: {
-                'dark-blue': '#1E293B',
+            fontFamily: {
+                roboto: ['Roboto', 'serif'],
             },
         },
     },
