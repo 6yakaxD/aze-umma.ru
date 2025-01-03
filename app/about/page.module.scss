@@ -55,6 +55,18 @@
     }
 }
 
+.wrapperMainBlock1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperMainBlock1Titles {
+    display: flex;
+    flex-direction: row;
+}
+
 /* 2 BLOCK */
 .mainBlock2 {
     display: flex;
@@ -114,7 +126,6 @@
 
         .accordion {
             background: linear-gradient(200deg, #1d91fc 13.57%, #5a36c0 98.38%);
-            width: max(50vw, 280px);
             padding: 25px 30px 10px;
             border-radius: 15px;
             margin-bottom: 40px;
@@ -171,5 +182,259 @@
         &:hover {
             background-color: $orange-secondary-hover;
         }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .mainContentDiv {
+        padding-inline: 0;
+        padding-block: 50px;
+    }
+    .videoBackground {
+        height: 70vh;
+    }
+    .wrapperMainBlock1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .wrapperMainBlock1Titles {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 20px;
+
+        p {
+            font-size: 15px;
+        }
+    }
+    .textOverlay {
+        h1 {
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+    .mainBlock1 {
+        img {
+            margin-right: 0;
+        }
+    }
+    .mainBlock2 {
+        h1 {
+            line-height: 50px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    }
+    .accordion {
+        width: max(80vw);
+
+        .title {
+            font-size: 26px;
+        }
+
+        .text {
+            font-size: 18px;
+        }
+    }
+    .mainBlock5 {
+        h1 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .mainContentDiv {
+        padding-inline: 0;
+        padding-block: 50px;
+    }
+    .videoBackground {
+        height: 70vh;
+    }
+    .wrapperMainBlock1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .wrapperMainBlock1Titles {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 20px;
+
+        p {
+            font-size: 18px;
+        }
+    }
+    .textOverlay {
+        h1 {
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+    .mainBlock1 {
+        img {
+            margin-right: 0;
+        }
+    }
+    .mainBlock2 {
+        h1 {
+            line-height: 50px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    }
+    .accordion {
+        width: max(80vw);
+
+        .title {
+            font-size: 26px;
+        }
+
+        .text {
+            font-size: 18px;
+        }
+    }
+    .mainBlock5 {
+        h1 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .mainContentDiv {
+        padding-inline: 0;
+        padding-block: 50px;
+    }
+    .videoBackground {
+        height: 70vh;
+    }
+    .wrapperMainBlock1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .wrapperMainBlock1Titles {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 20px;
+    }
+    .textOverlay {
+        h1 {
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+    .mainBlock1 {
+        img {
+            margin-right: 0;
+        }
+    }
+    .mainBlock2 {
+        h1 {
+            line-height: 50px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    }
+    .accordion {
+        width: max(80vw);
+
+        .title {
+            font-size: 26px;
+        }
+
+        .text {
+            font-size: 18px;
+        }
+    }
+    .mainBlock5 {
+        h1 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mainContentDiv {
+        padding-inline: 50px;
+        padding-block: 50px;
+    }
+    .mainContentDiv {
+        padding-inline: 50px;
+        padding-block: 50px;
+    }
+    .videoBackground {
+        height: 70vh;
+    }
+    .wrapperMainBlock1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .wrapperMainBlock1Titles {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 20px;
+    }
+    .textOverlay {
+        h1 {
+            font-size: 32px;
+        }
+    }
+    .mainBlock1 {
+        img {
+            margin-right: 0;
+        }
+    }
+    .mainBlock5 {
+        h1 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .mainContentDiv {
+        padding-inline: 100px;
+        padding-block: 50px;
+    }
+    .textOverlay {
+        h1 {
+            font-size: 42px;
+        }
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .mainContentDiv {
+        padding-inline: 200px;
+        padding-block: 50px;
+    }
+    .accordion {
+        width: max(50vw);
+    }
+}
+
+@media (min-width: 2560px) {
+    .mainContentDiv {
+        padding-inline: 500px;
+        padding-block: 50px;
+    }
+    .accordion {
+        width: max(50vw);
     }
 }

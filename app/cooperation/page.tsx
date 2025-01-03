@@ -1,8 +1,9 @@
 import Header from "@/components/base/header";
-import AllContentWrapper from "@/components/base/all_content_wrapper";
 import Footer from "@/components/base/footer";
 import CoopSlider from "@/components/sliders/coop_slider";
 import FormWrite from "@/components/form/write_form";
+import style from "./page.module.scss";
+import React from "react";
 
 
 export default function CooperationPage() {
@@ -10,7 +11,8 @@ export default function CooperationPage() {
         <>
             {/* TODO: Подумать какие поставить на фон узоры или картинки, чтобы заполнить пустоты + не выглядела как больничка */}
             <Header></Header>
-            <AllContentWrapper>
+            <div className={style.mainContentDiv}>
+
                 <div className="flex justify-between align-items-center gap-x-20">
                     <div className="w-1/2">
                         <h1 className="font-roboto font-extrabold text-6xl">О возможностях<br/>совместной<br/>работы на
@@ -41,7 +43,8 @@ export default function CooperationPage() {
                     <div className="w-1/2">
                         <p className="font-roboto font-normal text-3xl mt-[20px]">Позвоните нам</p>
                         <h2 className="font-roboto font-extrabold text-4xl mt-[20px]">+7 (999) 999-99-99</h2>
-                        <p className="font-roboto font-light mt-[20px]">Если у вас есть какие-либо вопросы, комментарии или идеи, с нами можно связаться по телефону,
+                        <p className="font-roboto font-light mt-[20px]">Если у вас есть какие-либо вопросы, комментарии
+                            или идеи, с нами можно связаться по телефону,
                             факсу или почте. По будням с 8.30 до 19.00. выходные 10.00-19.00</p>
                         <p className="font-roboto font-normal text-3xl mt-[20px]">Электронная почта</p>
                         <p className="font-roboto font-extrabold text-4xl mt-[20px]">example@example.com</p>
@@ -54,7 +57,8 @@ export default function CooperationPage() {
                     <h1 className="font-roboto text-3xl font-bold">Мы сотрудничаем с</h1>
                     <CoopSlider></CoopSlider>
                 </div>
-            </AllContentWrapper>
+            </div>
+
             <Footer></Footer>
         </>
     );

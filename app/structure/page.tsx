@@ -3,14 +3,15 @@ import style from './page.module.scss';
 import Header from "@/components/base/header";
 import Footer from "@/components/base/footer";
 import {Accordion, AccordionItem} from "@nextui-org/react";
-import AllContentWrapper from "@/components/base/all_content_wrapper";
+import React from "react";
 
 export default function Structure() {
 
     return (
         <>
             <Header/>
-            <AllContentWrapper>
+            <div className={style.mainContentDiv}>
+
                 <div>
                     <h1 className="font-roboto font-bold text-3xl flex justify-center">
                         Структура Диаспоры
@@ -37,10 +38,9 @@ export default function Structure() {
                             </AccordionItem>
                         </Accordion>
                     </div>
-
-
                 </div>
-            </AllContentWrapper>
+            </div>
+
             <Footer/>
         </>
     );

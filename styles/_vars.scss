@@ -1,9 +1,28 @@
-
 $dark-blue: #191f2a;
 $background: #F7F7F7;
 
 $orange-secondary: rgb(255, 64, 0);
 $orange-secondary-hover: rgb(221, 61, 8);
+
+// @media (max-width: 320px) {
+//     // Стили для мобильных устройств
+// }
+//
+// @media (min-width: 321px) and (max-width: 768px) {
+//     // Стили для планшетов
+// }
+//
+// @media (min-width: 769px) and (max-width: 1024px) {
+//     // Стили для небольших ноутбуков
+// }
+//
+// @media (min-width: 1025px) and (max-width: 1440px) {
+//     // Стили для стандартных ноутбуков
+// }
+//
+// @media (min-width: 1441px) {
+//     // Стили для больших экранов
+// }
 
 @mixin title-block {
     font-family: 'Roboto', sans-serif;

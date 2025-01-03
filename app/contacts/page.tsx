@@ -1,15 +1,16 @@
 import Header from "@/components/base/header";
-import AllContentWrapper from "@/components/base/all_content_wrapper";
 import Footer from "@/components/base/footer";
 import style from './page.module.scss';
 import FormWrite from "@/components/form/write_form";
+import React from "react";
 
 
 export default function ContactsPage() {
     return (
         <>
             <Header></Header>
-            <AllContentWrapper>
+            <div className={style.mainContentDiv}>
+
                 <div>
                     <div className={style.contantData}>
                         <h1 className="font-roboto text-3xl font-bold">Контактные данные</h1>
@@ -57,15 +58,15 @@ export default function ContactsPage() {
                             <div className={style.otherContactSpacer}></div>
                             {// @ts-ignore
                                 Array(4).fill().map((_, index) => (
-                                <div key={index} className={style.otherContentDataElem}>
-                                    <p>Отдел образования</p>
-                                    <div className={style.otherContentDataElemContacts}>
-                                        <p>Таджеддинов Э.Э.</p>
-                                        <a>8 999 999-99-99</a>
-                                        <a>edu@aze-umma.ru</a>
+                                    <div key={index} className={style.otherContentDataElem}>
+                                        <p>Отдел образования</p>
+                                        <div className={style.otherContentDataElemContacts}>
+                                            <p>Таджеддинов Э.Э.</p>
+                                            <a>8 999 999-99-99</a>
+                                            <a>edu@aze-umma.ru</a>
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
+                                ))}
                             <div className={style.otherContactSpacer}></div>
                         </div>
                     </div>
@@ -73,7 +74,8 @@ export default function ContactsPage() {
                     <FormWrite></FormWrite>
 
                 </div>
-            </AllContentWrapper>
+            </div>
+
             <Footer></Footer>
         </>
     );

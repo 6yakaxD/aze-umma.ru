@@ -3,8 +3,10 @@
 .titleBlock {
     @include title-block;
 }
+
 .showMoreNewsBtn {
     @include title-mini;
+
     &:hover {
         color: $orange-secondary-hover;
     }
@@ -20,3 +22,4 @@
         background-color: $orange-secondary-hover;
     }
 }
+

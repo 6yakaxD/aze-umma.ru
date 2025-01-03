@@ -30,3 +30,29 @@
     max-height: fit-content;
     top: 0;
 }
+
+@media (max-width: 970px) {
+    .centerContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contentLeft {
+        background-color: rgb(255, 255, 255);
+        border: rgba(0, 0, 0, 0.11) 0.2px solid;
+        padding: 15px;
+        width: 100%;
+        position: relative;
+    }
+
+    .contentRight {
+        background-color: rgb(255, 255, 255);
+        border: rgba(0, 0, 0, 0.11) 0.2px solid;
+        padding: 15px;
+        width: 100%;
+        position: relative;
+    }
+}

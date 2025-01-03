@@ -8,7 +8,6 @@
 
 .cardFromListImgDiv {
     width: 100%;
-    max-width: 400px;
 }
 
 .cardFromListTitleDiv {
@@ -47,5 +46,25 @@
 
     &:hover {
         filter: brightness(1);
+    }
+}
+
+@media (max-width: 690px) {
+
+    .newsCardFromList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .cardFromListTitleDiv {
+        margin-top: 10px;
+        margin-left: 0;
+
+        h4 {
+            margin-top: 10px;
+        }
     }
 }

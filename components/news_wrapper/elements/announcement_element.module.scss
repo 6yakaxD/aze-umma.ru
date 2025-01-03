@@ -4,6 +4,7 @@
 .announceTitles h2 {
     @include title-news;
     transition: color 0.2s;
+    margin-top: 10px;
 }
 
 .announceTitles h2:hover {

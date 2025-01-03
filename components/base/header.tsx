@@ -6,10 +6,10 @@ export default function Header(): React.ReactElement {
     return (
         <>
             <div className={styles['org-banner']}>
-                <img src="/umma.png" alt="УММА" style={{height: '260px'}}/>
+                <img src="/umma.png" alt="УММА" />
             </div>
             <div className={styles['org-name']}>
-                <h1 className="font-roboto font-extrabold text-4xl text-center">
+                <h1 className="">
                     АЗЕРБАЙДЖАНСКОЕ
                     <br/> КУЛЬТУРНО-ПРОСВЕТИТЕЛЬСКОЕ
                     <br/> ОБЪЕДИНЕНИЕ УММА

@@ -9,7 +9,7 @@ export default function Footer(): React.ReactElement {
                 <section className={styles.footer}>
                     <div className={styles.footerRow}>
                         <div className={styles.footerCol}>
-                            <img src="/logo_umma.png" alt="UMMA" style={{height:'220px'}}/>
+                            <img src="/logo_umma.png" alt="UMMA" />
                         </div>
 
                         <div className={styles.footerCol}>
@@ -22,10 +22,10 @@ export default function Footer(): React.ReactElement {
                             <a href="/contacts">
                                 <h4 style={{marginTop: '15px'}}>КОНТАКТЫ</h4>
                             </a>
-                            <a href="#">
+                            <a href="/cooperation">
                                 <h4 style={{marginTop: '15px'}}>СОТРУДНИЧЕСТВО</h4>
                             </a>
-                            <a href="#">
+                            <a href="/azerbaijan">
                                 <h4 style={{marginTop: '15px'}}>АЗЕРБАЙДЖАН</h4>
                             </a>
                         </div>
@@ -35,10 +35,10 @@ export default function Footer(): React.ReactElement {
                                 <h4>СТРУКТУРА</h4>
                             </a>
                             <ul className={styles.links}>
-                                <li><a href="/structure">Председатель</a></li>
-                                <li><a href="/structure">Отдел Образования</a></li>
-                                <li><a href="/structure">Отдел Старейшин</a></li>
-                                <li><a href="/structure">Отдел Спорта и туризма</a></li>
+                                <li><a href="/structure#accordions">Председатель</a></li>
+                                <li><a href="/structure#accordions">Отдел Образования</a></li>
+                                <li><a href="/structure#accordions">Отдел Старейшин</a></li>
+                                <li><a href="/structure#accordions">Отдел Спорта и туризма</a></li>
                             </ul>
                         </div>
 
