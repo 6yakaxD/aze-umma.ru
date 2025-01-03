@@ -9,56 +9,49 @@ body {
 
 
 
-@media (min-width: 320px) and (max-width: 970px) {
+@media (min-width: 320px) and (max-width: 375px) {
     .mainContentDiv {
-        padding-inline: 20px;
+        padding-inline: 10px;
         padding-block: 50px;
     }
 }
 
-@media (min-width: 970px) and (max-width: 1200px) {
+@media (min-width: 375px) and (max-width: 425px) {
+    .mainContentDiv {
+        padding-inline: 10px;
+        padding-block: 50px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .mainContentDiv {
+        padding-inline: 10px;
+        padding-block: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
     .mainContentDiv {
         padding-inline: 50px;
         padding-block: 50px;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
     .mainContentDiv {
-        padding-inline: 100px;
+        padding-inline: 90px;
         padding-block: 50px;
     }
 }
 
-@media (min-width: 1500px) and (max-width: 1920px) {
+@media (min-width: 1440px) and (max-width: 2560px) {
     .mainContentDiv {
         padding-inline: 200px;
         padding-block: 50px;
     }
 }
 
-@media (min-width: 1920px) and (max-width: 2300px) {
-    .mainContentDiv {
-        padding-inline: 350px;
-        padding-block: 50px;
-    }
-}
-
-@media (min-width: 2300px) and (max-width: 2600px) {
-    .mainContentDiv {
-        padding-inline: 500px;
-        padding-block: 50px;
-    }
-}
-
-@media (min-width: 2600px) and (max-width: 3000px) {
-    .mainContentDiv {
-        padding-inline: 500px;
-        padding-block: 50px;
-    }
-}
-
-@media (min-width: 3000px) {
+@media (min-width: 2560px) {
     .mainContentDiv {
         padding-inline: 600px;
         padding-block: 50px;

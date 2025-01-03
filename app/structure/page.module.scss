@@ -1,9 +1,9 @@
 @import '../../styles/_vars.scss';
 
-.mainContentDiv {
+.wrappper {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -64,4 +64,73 @@
     padding: 20px 20px;
     border: 1px solid #ccc;
     width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .mainContentDiv {
+        padding-inline: 10px;
+        padding-block: 50px;
+    }
+    .wrappper {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .mainContentDiv {
+        padding-inline: 10px;
+        padding-block: 50px;
+    }
+    .wrappper {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .mainContentDiv {
+        padding-inline: 10px;
+        padding-block: 50px;
+    }
+    .wrappper {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mainContentDiv {
+        padding-inline: 50px;
+        padding-block: 50px;
+    }
+    .wrappper {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .mainContentDiv {
+        padding-inline: 90px;
+        padding-block: 50px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .mainContentDiv {
+        padding-inline: 200px;
+        padding-block: 50px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .mainContentDiv {
+        padding-inline: 600px;
+        padding-block: 50px;
+    }
 }

@@ -12,7 +12,7 @@ export default function Structure() {
             <Header/>
             <div className={style.mainContentDiv}>
 
-                <div>
+                <div className={style.wrappper}>
                     <h1 className="font-roboto font-bold text-3xl flex justify-center">
                         Структура Диаспоры
                     </h1>
