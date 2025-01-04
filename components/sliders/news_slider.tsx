@@ -37,7 +37,7 @@ export default function NewsSlider(): React.ReactElement {
                             {/* Слайды */}
                             <li className="splide__slide">
                                 <div>
-                                    <a href="#">
+                                    <a href="/news-detail/example">
                                         <img src="/1.jpg" className={styles.mainNewsPostImg}/>
                                     </a>
                                 </div>
@@ -52,7 +52,7 @@ export default function NewsSlider(): React.ReactElement {
                             {/* Слайды */}
                             <li className="splide__slide">
                                 <div>
-                                    <a href="#">
+                                    <a href="/news-detail/example">
                                         <img src="/1.jpg" className={styles.mainNewsPostImg}/>
                                     </a>
                                 </div>
@@ -67,7 +67,7 @@ export default function NewsSlider(): React.ReactElement {
                             {/* Слайды */}
                             <li className="splide__slide">
                                 <div>
-                                    <a href="#">
+                                    <a href="/news-detail/example">
                                         <img src="/1.jpg" className={styles.mainNewsPostImg}/>
                                     </a>
                                 </div>

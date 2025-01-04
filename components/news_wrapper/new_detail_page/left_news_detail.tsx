@@ -24,18 +24,19 @@ export default function LeftNewsDetailPageContent(): React.ReactElement {
                 <div className={style.articleDateTime}>
                     <div style={{display: 'flex', gap: '5px', justifyContent: 'center', alignItems: 'center'}}>
                         <p>01.01.2024</p>
+                        <p>· Просмотров: 111</p>
                     </div>
-                    <p>· Просмотров: 111</p>
+                    <div>
+                        <button className={style.likeBtn}>
+                            <i className="fa fa-thumbs-up"></i>
+                            1000
+                        </button>
 
-                    <button className={style.likeBtn}>
-                        <i className="fa fa-thumbs-up"></i>
-                        1000
-                    </button>
-
-                    <button className={style.dislikeBtn}>
-                        <i className="fa fa-thumbs-down"></i>
-                        10
-                    </button>
+                        <button className={style.dislikeBtn}>
+                            <i className="fa fa-thumbs-down"></i>
+                            10
+                        </button>
+                    </div>
                 </div>
 
                 {/* Spacer */}

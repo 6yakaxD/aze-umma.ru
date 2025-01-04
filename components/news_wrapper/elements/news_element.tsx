@@ -6,12 +6,12 @@ export default function NewsElement(): React.ReactElement{
         <>
             <div className={styles.newsCardFromList}>
                 <div className={styles.cardFromListImgDiv}>
-                    <a href="#">
+                    <a href="/news-detail/example">
                         <img src="/1.jpg" className={styles.hoverZoomImage} />
                     </a>
                 </div>
                 <div className={styles.cardFromListTitleDiv}>
-                    <a href="#">
+                    <a href="/news-detail/example">
                         <h2>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iure corporis unde nam
                             labore ad provident qui sequi sit nihil. Sit, a. Dolorum maxime labore, facilis nam sunt

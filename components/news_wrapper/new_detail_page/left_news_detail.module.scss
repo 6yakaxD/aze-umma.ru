@@ -278,3 +278,114 @@
 }
 
 
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .articleTitle {
+        h1 {
+            font-size: 20px !important;
+            line-height: 25px !important;
+        }
+    }
+    .articleDateTime {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .articleMainPreview img {
+        width: 100%;
+    }
+    .articleMainContext {
+        margin: 0;
+        margin-block: 15px;
+    }
+
+    .botnavPrevPost {
+        p {
+            font-size: 12px;
+        }
+    }
+    .allNewsBtn {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .botnavNextPost {
+        font-size: 12px;
+    }
+    .articleBottomNavigation {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .articleTitle {
+        h1 {
+            font-size: 20px !important;
+            line-height: 25px !important;
+        }
+    }
+    .articleMainPreview img {
+        width: 100%;
+    }
+    .articleMainContext {
+        margin: 0;
+        margin-block: 15px;
+    }
+
+    .botnavPrevPost {
+        p {
+            font-size: 12px;
+        }
+    }
+    .allNewsBtn {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .botnavNextPost {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .articleTitle {
+        h1 {
+            font-size: 20px !important;
+            line-height: 25px !important;
+        }
+    }
+    .articleMainPreview img {
+        width: 100%;
+    }
+    .articleMainContext {
+        margin: 0;
+        margin-block: 15px;
+    }
+
+    .botnavPrevPost {
+        p {
+            font-size: 12px;
+        }
+    }
+    .allNewsBtn {
+        font-size: 12px;
+    }
+    .botnavNextPost {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+
+}
+
+@media (min-width: 2560px) {
+
+}
