@@ -3,8 +3,10 @@
 .bckgrndimg {
     background-color: $background;
     background-image: url('/body-top-bg.png');
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    min-height: 100%;
 }
 
 .org-banner {
