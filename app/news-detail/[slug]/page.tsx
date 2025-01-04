@@ -4,6 +4,7 @@ import Header from "@/components/base/header";
 import Footer from "@/components/base/footer";
 import LeftNewsDetailPageContent from "@/components/news_wrapper/new_detail_page/left_news_detail";
 import style from "./page.module.scss";
+import BackgroundImgWrapper from "@/components/background-img-wrapper";
 
 export default async function Page({params}: { params: Promise<{ slug: string }> }) {
     const slug = (await params).slug
@@ -12,13 +13,14 @@ export default async function Page({params}: { params: Promise<{ slug: string }>
         <>
             <Header></Header>
 
-            <div className={style.mainContentDiv}>
+            <BackgroundImgWrapper>
+                <div className={style.mainContentDiv}>
 
-                <div className={style.wrapperNewsDetail}>
-                    <LeftNewsDetailPageContent/>
+                    <div className={style.wrapperNewsDetail}>
+                        <LeftNewsDetailPageContent/>
+                    </div>
                 </div>
-            </div>
-
+            </BackgroundImgWrapper>
             <Footer></Footer>
         </>
     )

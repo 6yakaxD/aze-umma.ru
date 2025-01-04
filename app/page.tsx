@@ -7,27 +7,29 @@ import RightMainPageContent from "@/components/news_wrapper/main_page/right_anno
 import CoopSlider from "@/components/sliders/coop_slider";
 import style from "./page.module.scss";
 import React from "react";
+import BackgroundImgWrapper from "@/components/background-img-wrapper";
 
 export default function HomePage() {
     return (
         <>
             <Header></Header>
-            <div className={style.mainContentDiv}>
+            <BackgroundImgWrapper>
+                <div className={style.mainContentDiv}>
 
-                <NewsSlider></NewsSlider>
-                <div className="mt-[25px]">
-                    <NewsWrapper
-                        LeftContent={<LeftMainPageContent/>}
-                        RightContent={<RightMainPageContent/>}
-                    />
+                    <NewsSlider></NewsSlider>
+                    <div className="mt-[25px]">
+                        <NewsWrapper
+                            LeftContent={<LeftMainPageContent/>}
+                            RightContent={<RightMainPageContent/>}
+                        />
+                    </div>
+
+                    <div className="mt-[25px]">
+                        <h3 className="font-roboto text-3xl font-bold">Мы сотрудничаем с</h3>
+                        <CoopSlider></CoopSlider>
+                    </div>
                 </div>
-
-                <div className="mt-[25px]">
-                    <h3 className="font-roboto text-3xl font-bold">Мы сотрудничаем с</h3>
-                    <CoopSlider></CoopSlider>
-                </div>
-            </div>
-
+            </BackgroundImgWrapper>
             <Footer></Footer>
         </>
     );

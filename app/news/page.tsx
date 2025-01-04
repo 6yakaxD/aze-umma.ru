@@ -5,20 +5,22 @@ import NewsWrapper from "@/components/news_wrapper/news_wrapper";
 import LeftNewsPageContent from "@/components/news_wrapper/news_page/left_news_main";
 import style from "./page.module.scss";
 import React from "react";
+import BackgroundImgWrapper from "@/components/background-img-wrapper";
 
 
 export default function NewsPage() {
     return (
         <>
             <Header></Header>
-            <div className={style.mainContentDiv}>
+            <BackgroundImgWrapper>
+                <div className={style.mainContentDiv}>
 
-                <NewsWrapper
-                    LeftContent={<LeftNewsPageContent/>}
-                    RightContent={<RightMainPageContent/>}
-                />
-            </div>
-
+                    <NewsWrapper
+                        LeftContent={<LeftNewsPageContent/>}
+                        RightContent={<RightMainPageContent/>}
+                    />
+                </div>
+            </BackgroundImgWrapper>
             <Footer></Footer>
         </>
     );

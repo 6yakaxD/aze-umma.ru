@@ -1,0 +1,9 @@
+.bckgrndImg {
+    background-image:
+            radial-gradient(ellipse 90% 200% at center, rgb(247, 247, 247) 30%, rgba(255, 255, 255, 0.51) 70%),
+            url('/butta_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
